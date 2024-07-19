@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD4FE9802C4AA1BA00AE2F1E /* text_keyboard_switchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4FE97F2C4AA1BA00AE2F1E /* text_keyboard_switchApp.swift */; };
+		DD4FE9822C4AA1BA00AE2F1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4FE9812C4AA1BA00AE2F1E /* ContentView.swift */; };
+		DD4FE9842C4AA1BD00AE2F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4FE9832C4AA1BD00AE2F1E /* Assets.xcassets */; };
+		DD4FE9872C4AA1BD00AE2F1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4FE9862C4AA1BD00AE2F1E /* Preview Assets.xcassets */; };
+		DD4FE9912C4AA1BE00AE2F1E /* text_keyboard_switchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4FE9902C4AA1BE00AE2F1E /* text_keyboard_switchTests.swift */; };
+		DD4FE99B2C4AA1BE00AE2F1E /* text_keyboard_switchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4FE99A2C4AA1BE00AE2F1E /* text_keyboard_switchUITests.swift */; };
+		DD4FE99D2C4AA1BE00AE2F1E /* text_keyboard_switchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4FE99C2C4AA1BE00AE2F1E /* text_keyboard_switchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD4FE98D2C4AA1BE00AE2F1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD4FE9742C4AA1BA00AE2F1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD4FE97B2C4AA1BA00AE2F1E;
+			remoteInfo = "text-keyboard-switch";
+		};
+		DD4FE9972C4AA1BE00AE2F1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD4FE9742C4AA1BA00AE2F1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD4FE97B2C4AA1BA00AE2F1E;
+			remoteInfo = "text-keyboard-switch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD4FE97C2C4AA1BA00AE2F1E /* text-keyboard-switch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "text-keyboard-switch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4FE97F2C4AA1BA00AE2F1E /* text_keyboard_switchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = text_keyboard_switchApp.swift; sourceTree = "<group>"; };
+		DD4FE9812C4AA1BA00AE2F1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD4FE9832C4AA1BD00AE2F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD4FE9862C4AA1BD00AE2F1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD4FE98C2C4AA1BE00AE2F1E /* text-keyboard-switchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "text-keyboard-switchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4FE9902C4AA1BE00AE2F1E /* text_keyboard_switchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = text_keyboard_switchTests.swift; sourceTree = "<group>"; };
+		DD4FE9962C4AA1BE00AE2F1E /* text-keyboard-switchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "text-keyboard-switchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4FE99A2C4AA1BE00AE2F1E /* text_keyboard_switchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = text_keyboard_switchUITests.swift; sourceTree = "<group>"; };
+		DD4FE99C2C4AA1BE00AE2F1E /* text_keyboard_switchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = text_keyboard_switchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD4FE9792C4AA1BA00AE2F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4FE9892C4AA1BE00AE2F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4FE9932C4AA1BE00AE2F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD4FE9732C4AA1BA00AE2F1E = {
+			isa = PBXGroup;
+			children = (
+				DD4FE97E2C4AA1BA00AE2F1E /* text-keyboard-switch */,
+				DD4FE98F2C4AA1BE00AE2F1E /* text-keyboard-switchTests */,
+				DD4FE9992C4AA1BE00AE2F1E /* text-keyboard-switchUITests */,
+				DD4FE97D2C4AA1BA00AE2F1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD4FE97D2C4AA1BA00AE2F1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD4FE97C2C4AA1BA00AE2F1E /* text-keyboard-switch.app */,
+				DD4FE98C2C4AA1BE00AE2F1E /* text-keyboard-switchTests.xctest */,
+				DD4FE9962C4AA1BE00AE2F1E /* text-keyboard-switchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD4FE97E2C4AA1BA00AE2F1E /* text-keyboard-switch */ = {
+			isa = PBXGroup;
+			children = (
+				DD4FE97F2C4AA1BA00AE2F1E /* text_keyboard_switchApp.swift */,
+				DD4FE9812C4AA1BA00AE2F1E /* ContentView.swift */,
+				DD4FE9832C4AA1BD00AE2F1E /* Assets.xcassets */,
+				DD4FE9852C4AA1BD00AE2F1E /* Preview Content */,
+			);
+			path = "text-keyboard-switch";
+			sourceTree = "<group>";
+		};
+		DD4FE9852C4AA1BD00AE2F1E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD4FE9862C4AA1BD00AE2F1E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD4FE98F2C4AA1BE00AE2F1E /* text-keyboard-switchTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD4FE9902C4AA1BE00AE2F1E /* text_keyboard_switchTests.swift */,
+			);
+			path = "text-keyboard-switchTests";
+			sourceTree = "<group>";
+		};
+		DD4FE9992C4AA1BE00AE2F1E /* text-keyboard-switchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD4FE99A2C4AA1BE00AE2F1E /* text_keyboard_switchUITests.swift */,
+				DD4FE99C2C4AA1BE00AE2F1E /* text_keyboard_switchUITestsLaunchTests.swift */,
+			);
+			path = "text-keyboard-switchUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD4FE97B2C4AA1BA00AE2F1E /* text-keyboard-switch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4FE9A02C4AA1BE00AE2F1E /* Build configuration list for PBXNativeTarget "text-keyboard-switch" */;
+			buildPhases = (
+				DD4FE9782C4AA1BA00AE2F1E /* Sources */,
+				DD4FE9792C4AA1BA00AE2F1E /* Frameworks */,
+				DD4FE97A2C4AA1BA00AE2F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "text-keyboard-switch";
+			productName = "text-keyboard-switch";
+			productReference = DD4FE97C2C4AA1BA00AE2F1E /* text-keyboard-switch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD4FE98B2C4AA1BE00AE2F1E /* text-keyboard-switchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4FE9A32C4AA1BE00AE2F1E /* Build configuration list for PBXNativeTarget "text-keyboard-switchTests" */;
+			buildPhases = (
+				DD4FE9882C4AA1BE00AE2F1E /* Sources */,
+				DD4FE9892C4AA1BE00AE2F1E /* Frameworks */,
+				DD4FE98A2C4AA1BE00AE2F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD4FE98E2C4AA1BE00AE2F1E /* PBXTargetDependency */,
+			);
+			name = "text-keyboard-switchTests";
+			productName = "text-keyboard-switchTests";
+			productReference = DD4FE98C2C4AA1BE00AE2F1E /* text-keyboard-switchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD4FE9952C4AA1BE00AE2F1E /* text-keyboard-switchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4FE9A62C4AA1BE00AE2F1E /* Build configuration list for PBXNativeTarget "text-keyboard-switchUITests" */;
+			buildPhases = (
+				DD4FE9922C4AA1BE00AE2F1E /* Sources */,
+				DD4FE9932C4AA1BE00AE2F1E /* Frameworks */,
+				DD4FE9942C4AA1BE00AE2F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD4FE9982C4AA1BE00AE2F1E /* PBXTargetDependency */,
+			);
+			name = "text-keyboard-switchUITests";
+			productName = "text-keyboard-switchUITests";
+			productReference = DD4FE9962C4AA1BE00AE2F1E /* text-keyboard-switchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD4FE9742C4AA1BA00AE2F1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DD4FE97B2C4AA1BA00AE2F1E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DD4FE98B2C4AA1BE00AE2F1E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DD4FE97B2C4AA1BA00AE2F1E;
+					};
+					DD4FE9952C4AA1BE00AE2F1E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DD4FE97B2C4AA1BA00AE2F1E;
+					};
+				};
+			};
+			buildConfigurationList = DD4FE9772C4AA1BA00AE2F1E /* Build configuration list for PBXProject "text-keyboard-switch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD4FE9732C4AA1BA00AE2F1E;
+			productRefGroup = DD4FE97D2C4AA1BA00AE2F1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD4FE97B2C4AA1BA00AE2F1E /* text-keyboard-switch */,
+				DD4FE98B2C4AA1BE00AE2F1E /* text-keyboard-switchTests */,
+				DD4FE9952C4AA1BE00AE2F1E /* text-keyboard-switchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD4FE97A2C4AA1BA00AE2F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4FE9872C4AA1BD00AE2F1E /* Preview Assets.xcassets in Resources */,
+				DD4FE9842C4AA1BD00AE2F1E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4FE98A2C4AA1BE00AE2F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4FE9942C4AA1BE00AE2F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD4FE9782C4AA1BA00AE2F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4FE9822C4AA1BA00AE2F1E /* ContentView.swift in Sources */,
+				DD4FE9802C4AA1BA00AE2F1E /* text_keyboard_switchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4FE9882C4AA1BE00AE2F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4FE9912C4AA1BE00AE2F1E /* text_keyboard_switchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4FE9922C4AA1BE00AE2F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4FE99D2C4AA1BE00AE2F1E /* text_keyboard_switchUITestsLaunchTests.swift in Sources */,
+				DD4FE99B2C4AA1BE00AE2F1E /* text_keyboard_switchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD4FE98E2C4AA1BE00AE2F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD4FE97B2C4AA1BA00AE2F1E /* text-keyboard-switch */;
+			targetProxy = DD4FE98D2C4AA1BE00AE2F1E /* PBXContainerItemProxy */;
+		};
+		DD4FE9982C4AA1BE00AE2F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD4FE97B2C4AA1BA00AE2F1E /* text-keyboard-switch */;
+			targetProxy = DD4FE9972C4AA1BE00AE2F1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD4FE99E2C4AA1BE00AE2F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD4FE99F2C4AA1BE00AE2F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD4FE9A12C4AA1BE00AE2F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"text-keyboard-switch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.komandakycto.text-keyboard-switch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD4FE9A22C4AA1BE00AE2F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"text-keyboard-switch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.komandakycto.text-keyboard-switch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD4FE9A42C4AA1BE00AE2F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.komandakycto.text-keyboard-switchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/text-keyboard-switch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/text-keyboard-switch";
+			};
+			name = Debug;
+		};
+		DD4FE9A52C4AA1BE00AE2F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.komandakycto.text-keyboard-switchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/text-keyboard-switch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/text-keyboard-switch";
+			};
+			name = Release;
+		};
+		DD4FE9A72C4AA1BE00AE2F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.komandakycto.text-keyboard-switchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "text-keyboard-switch";
+			};
+			name = Debug;
+		};
+		DD4FE9A82C4AA1BE00AE2F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.komandakycto.text-keyboard-switchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "text-keyboard-switch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD4FE9772C4AA1BA00AE2F1E /* Build configuration list for PBXProject "text-keyboard-switch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4FE99E2C4AA1BE00AE2F1E /* Debug */,
+				DD4FE99F2C4AA1BE00AE2F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4FE9A02C4AA1BE00AE2F1E /* Build configuration list for PBXNativeTarget "text-keyboard-switch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4FE9A12C4AA1BE00AE2F1E /* Debug */,
+				DD4FE9A22C4AA1BE00AE2F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4FE9A32C4AA1BE00AE2F1E /* Build configuration list for PBXNativeTarget "text-keyboard-switchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4FE9A42C4AA1BE00AE2F1E /* Debug */,
+				DD4FE9A52C4AA1BE00AE2F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4FE9A62C4AA1BE00AE2F1E /* Build configuration list for PBXNativeTarget "text-keyboard-switchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4FE9A72C4AA1BE00AE2F1E /* Debug */,
+				DD4FE9A82C4AA1BE00AE2F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD4FE9742C4AA1BA00AE2F1E /* Project object */;
+}
